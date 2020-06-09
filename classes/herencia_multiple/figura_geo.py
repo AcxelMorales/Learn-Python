@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class FiguraGeometrica(ABC):
     def __init__(self, ancho, alto):
         self.__ancho = ancho
